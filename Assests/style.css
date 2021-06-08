@@ -20,6 +20,16 @@ button {
   transform-style: preserve-3d;
 }
 
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+
+}
+
+
 
 .navbar {
   position: fixed;
@@ -97,7 +107,7 @@ button {
   overflow: hidden;
   transform-origin: left;
   transform-style: preserve-3d;
-  transition: 0.5s;
+  transition: 0.11s;
 }
 
 header {
@@ -169,6 +179,15 @@ header {
   to {
     transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
   }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
 }
 
 .links {
