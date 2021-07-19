@@ -13,7 +13,16 @@ button {
 
  .Aboutbody{
  background: linear-gradient(0.10turn,  #fff, #8A8D8F);
+ background: url(../pictures/1st\ Picture.jpg);
+ min-height: 100vh;
+ width: 100%;
+ position: relative;
+ text-decoration: dashed;
  }
+ 
+
+
+
 
 
  
